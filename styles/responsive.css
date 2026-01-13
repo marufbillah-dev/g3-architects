@@ -44,4 +44,26 @@
   .image-container {
     gap: 12px;
   }
+  .lovely-features-container {
+    flex-direction: column-reverse;
+    padding: 0 10px;
+    gap: 15px;
+  }
+  .lovely-features-image {
+    justify-content: center;
+  }
+  .architect-image-badge {
+    font-size: 2rem;
+    padding: 22.5px 20px;
+    border-radius: 8px;
+    display: inline-block;
+    line-height: 15px;
+    margin: -45px auto 0;
+  }
+  .architect-image-badge .small-text {
+    font-size: 0.75rem;
+  }
+  .broken-break {
+    display: none;
+  }
 }

@@ -142,3 +142,62 @@ header {
   margin-bottom: 32px;
 }
 /* our-features section ends */
+
+/* lovely-features starts */
+.lovely-features-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lovely-features-contents {
+  max-width: 586px;
+}
+.section-heading {
+  padding-left: 20px;
+  border-left: 5px solid #ff900e;
+}
+.lovely-features-cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.features-card {
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.features-card-title {
+  color: #131313;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.lovely-features-image {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+
+}
+.lovely-features-image img {
+  width: 700px;
+  width: 100%;
+}
+.architect-image-badge {
+  color: white;
+  font-weight: bold;
+  font-size: 4rem;
+  background-color: #ff900e;
+  padding: 45px 40px;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 30px;
+  display: inline-block;
+  margin-top: -100px;
+  margin-left: -100px;
+  align-self: self-start;
+}
+.architect-image-badge .small-text {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+/* lovely-features ends */
