@@ -1,5 +1,18 @@
 /* small device : ≥576px */
 @media screen and (max-width: 576px) {
+  #our-features,
+  #lovely-features,
+  #some-facts,
+  #our-sponsors,
+  footer {
+    padding: 32.5px 0;
+  }
+  .section-heading {
+    margin-bottom: 12px;
+  }
+  .section-desc {
+    margin-bottom: 16px;
+  }
   header {
     padding: 15px 0;
   }
@@ -22,5 +35,13 @@
   }
   .hero-desc {
     margin-bottom: 16px;
+  }
+  .our-features-container {
+    flex-direction: column;
+    padding: 0 10px;
+    gap: 15px;
+  }
+  .image-container {
+    gap: 12px;
   }
 }

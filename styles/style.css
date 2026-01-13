@@ -20,8 +20,25 @@ img {
   max-width: 1440px;
   margin: 0 auto;
 }
+#our-features,
+#lovely-features,
+#some-facts,
+#our-sponsors,
+footer {
+  padding: 65px 0;
+}
+.section-heading {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 24px;
+  color: #131313;
+}
 .primary-color {
   color: #ff900e;
+}
+.thin-45-d3 {
+  color: #727272;
+  font-weight: 500;
 }
 .dark-1 {
   color: #131313;
@@ -105,3 +122,23 @@ header {
 }
 /* hero section ends */
 /* header ends */
+
+/* our-features section starts */
+.our-features-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.our-features-contents {
+  max-width: 535px;
+  width: 100%;
+}
+.section-desc {
+  margin-bottom: 32px;
+}
+/* our-features section ends */
