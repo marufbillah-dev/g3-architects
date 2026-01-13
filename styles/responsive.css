@@ -11,4 +11,16 @@
   .nav-menu ul {
     gap: 25px;
   }
+  #hero {
+    padding-top: 40px;
+  }
+  .hero-contents {
+    margin-bottom: 25px;
+  }
+  .hero-title {
+    margin-bottom: 12px;
+  }
+  .hero-desc {
+    margin-bottom: 16px;
+  }
 }
