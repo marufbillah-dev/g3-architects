@@ -236,3 +236,25 @@ header {
   font-weight: 600;
 }
 /* some-facts section ends */
+
+/* our-sponsors section starts */
+.our-sponsors-contents {
+  margin: 0 auto 50px;
+  text-align: center;
+  max-width: 542px;
+}
+.sponsors-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sponsors-container img {
+  height: 50px;
+  width: auto;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+.sponsors-container img:hover {
+  filter: none;
+}
+/* our-sponsors section ends */

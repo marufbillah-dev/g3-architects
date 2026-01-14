@@ -85,4 +85,19 @@
     gap: 5px;
     text-align: center;
   }
+  .our-sponsors-contents {
+    margin: 0 auto 25px;
+  }
+  .sponsors-container {
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+  .sponsors-container > div {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
