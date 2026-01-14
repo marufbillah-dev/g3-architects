@@ -258,3 +258,14 @@ header {
   filter: none;
 }
 /* our-sponsors section ends */
+
+/* footer starts */
+#footer {
+}
+.footer-container {
+  background-color: rgba(255, 244, 231, 1);
+  padding: 40px 0;
+  text-align: center;
+  border-radius: 8px;
+}
+/* footer ends */
