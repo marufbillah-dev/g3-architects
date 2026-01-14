@@ -73,6 +73,14 @@ header {
   background-color: rgba(255, 144, 14, 0.1);
 }
 /* nav starts */
+nav {
+  position: sticky;
+  padding: 5px 0;
+  top: 0;
+  z-index: 10;
+  background-color: rgb(255, 244, 231);
+  /* width: 100%; */
+}
 .nav-container {
   display: flex;
   justify-content: space-between;
@@ -92,6 +100,25 @@ header {
   font-weight: 500;
 }
 .nav-menu ul a:hover {
+  text-decoration: 2px underline #ff900e;
+  text-underline-offset: 5px;
+}
+
+/* sm-nav-menu */
+.sm-nav-menu {
+  display: none;
+}
+
+.sm-nav-menu ul {
+  display: flex;
+  gap: 75px;
+}
+.sm-nav-menu ul a {
+  color: #424242;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+.sm-nav-menu ul a:hover {
   text-decoration: 2px underline #ff900e;
   text-underline-offset: 5px;
 }
