@@ -66,4 +66,23 @@
   .broken-break {
     display: none;
   }
+  .some-facts-container {
+    padding: 0 10px;
+  }
+  .some-facts-contents {
+    margin-bottom: 30px;
+  }
+  .some-facts-card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .some-facts-card {
+    width: 100%;
+    height: auto;
+    padding: 20px 17px 30px;
+    display: flex;
+    gap: 5px;
+    text-align: center;
+  }
 }
