@@ -3,8 +3,7 @@
   #our-features,
   #lovely-features,
   #some-facts,
-  #our-sponsors,
-  footer {
+  #our-sponsors {
     padding: 32.5px 0;
   }
   .section-heading {
@@ -137,7 +136,10 @@
 
   /* footer starts */
   footer {
-    padding: 0 10px;
+    padding: 20px 10px;
+  }
+  .footer-container {
+    padding: 20px;
   }
   /* footer ends */
 }
